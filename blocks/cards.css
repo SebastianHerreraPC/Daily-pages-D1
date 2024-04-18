@@ -1,7 +1,13 @@
 .cards {
 }
 .card {
-  width: 100%;
-  height: 100%;
-  background-color: rgba(0, 0, 0, 0.5);
+  width: 350px;
+  background-color: #e3f3ff;
+}
+.card__title {
+  font-size: 24px;
+  font-weight: 500;
+}
+.card__text {
+  font-size: 16px;
 }
