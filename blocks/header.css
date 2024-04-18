@@ -1,7 +1,22 @@
 .header {
-  width: 100vw;
+  margin: auto;
+  width: 100%;
   height: 100vh;
-  background-color: grey;
+  background-image: url(/images/Copia\ de\ valentin-beauvais-yVUQlyRlJSw-unsplash.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.header__text {
+  font-size: 50px;
   color: white;
-  font-size: 80px;
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: 500;
+  padding-top: 30px;
+}
+.header__block {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(81, 7, 115, 0.5);
+  z-index: 2;
 }
